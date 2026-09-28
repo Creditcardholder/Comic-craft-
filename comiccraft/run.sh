@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+source .env
+uvicorn main:app --host 0.0.0.0 --port 8000
